@@ -74,9 +74,9 @@ while generatePoint != numPoint:
     xPoint = int(random.randint(-10 ,10))
     yPoint = int(random.randint(-10 ,10))
     generatePoint = generatePoint + 1
-#    print(xPoint , yPoint )
+    print(xPoint , yPoint )
     if xPoint^2 + yPoint^2 < 1:
-#        print('(', xPoint, ',', yPoint, ') this point is fall inside circle A')
+        print('(', xPoint, ',', yPoint, ') this point is fall inside circle A')
         numTotalCircleA = numTotalCircleA + 1
 N = int(numPoint)
 n = int(numTotalCircleA)
